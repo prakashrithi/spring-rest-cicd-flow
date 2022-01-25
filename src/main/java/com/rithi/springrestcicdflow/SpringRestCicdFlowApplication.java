@@ -12,7 +12,7 @@ public class SpringRestCicdFlowApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringRestCicdFlowApplication.class, args);
     }
-    @GetMapping("/message")
+    @GetMapping("/message1")
     public String sayMessage(){
         return "Welcome to spring rest services";
     }
